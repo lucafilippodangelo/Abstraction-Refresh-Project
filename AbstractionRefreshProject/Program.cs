@@ -10,8 +10,12 @@ namespace AbstractionBasics
         //LD test
         static void Main(string[] args)
         {
+            //LD comment one of those at time
             //CreateSavingsAccount();
+
             PlayWithAbstractBankAccount();
+
+            Console.ReadLine();
         }
 
         public static void CreateSavingsAccount()

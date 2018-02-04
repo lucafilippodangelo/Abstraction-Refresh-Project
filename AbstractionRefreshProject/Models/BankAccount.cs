@@ -6,7 +6,7 @@ using System.Text;
 /// //LD STEP0
 /// BASE CLASS
 /// 
-/// This class does a good job of defining characteristics common to any type of bank account, 
+/// This class define characteristics common to any type of bank account, 
 /// such as account holder name, account number and current balance. Imagine, however, 
 /// that our banking program needs to support a number of specific types of account. 
 /// For example, the bank might offer its customers an interest bearing savings account. 
@@ -22,7 +22,7 @@ namespace AbstractionBasics.Models
     public class BankAccount
     {
 
-        private string accountName;
+        private string accountName; //LD just this classe can see it
         protected int accountBalance; //LD just child classes can see it
         private int accountNumber;
 

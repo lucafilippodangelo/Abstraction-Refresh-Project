@@ -12,7 +12,7 @@ namespace AbstractionBasics.Models
 
         //LD ABSTRACT MEMBER 
         //abstract member is not implemented in the base class and must be implemented 
-        //in derived classes in order for the class to compileany derived class must implement this method
+        //in derived classes.
         public abstract void printAccountSentence();
 
         //LD VIRTUAL MEMBER

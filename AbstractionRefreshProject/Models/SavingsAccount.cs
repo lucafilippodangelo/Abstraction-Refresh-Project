@@ -16,11 +16,11 @@ namespace AbstractionBasics.Models
     {
         private double interestRate;
 
-        public SavingsAccount(string name, int number, int balance, double rate)
-        : base(name, number) //LD we use the members of the base class
+        public SavingsAccount(string name, int number, int balance, double rate) : base(name, number) 
+        //LD we use the members of the base class
         {
             //LD STEP1
-            accountBalance = balance;
+            accountBalance = balance; //LD able to define it because in base class is defined as "private"
             interestRate = rate;
         }
 
@@ -30,7 +30,7 @@ namespace AbstractionBasics.Models
             return interestRate * accountBalance;
         }
 
-        //here we are optionally overriding a VIRTUAL
+        //LD here we are optionally overriding a VIRTUAL
         public override int getAccountNumber()
         {
             return base.getAccountNumber() + 5000;
