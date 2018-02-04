@@ -28,6 +28,7 @@ namespace AbstractionBasics
 
         public static void PlayWithAbstractBankAccount()
         {
+            //LD STEP6 
             //LD declare a list with items of type BASE CLASS
             List<AbstractBankAccount> aList = new List<AbstractBankAccount>();
 

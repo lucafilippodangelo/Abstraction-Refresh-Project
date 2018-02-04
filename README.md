@@ -24,6 +24,7 @@ The notes are divided in two parts
 - //LD STEP3 -> definition of abstract class containing and abstract and a virtual method.
 - //LD STEP4 -> inheriting from abstract class
 - //LD STEP5 -> inheriting from abstract class
+- //LD STEP6 -> declare a list of type AbstractBankAccount and call in loop the implemented methods
 
 
 ## Some Sweet Theory 
